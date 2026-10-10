@@ -6,7 +6,7 @@ A mod to modify the appearance of the silence in the hit rhythm game UNBEATABLE!
 
 To load a custom silence image, simply put an image file called `silence.png` or `silence.jpg` inside the same folder as the mod DLL file. 
 
-The image file will be reloaded on every restart, and if it is not present will simply show the normal silence sprites (i.e., you can easily disable it by simply renaming or deleting the image).
+The image file is be reloaded on every song restart, and if it is not present will simply show the normal silence sprites (i.e., you can easily disable it by simply renaming or deleting the image).
 
 There are also some options available in the BepInEx configuration file:
 
