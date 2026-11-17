@@ -2,11 +2,15 @@
 
 A mod to modify the appearance of the silence in the hit rhythm game UNBEATABLE!
 
+![A screenshot showing custom silence in UNBEATABLE.](img/image.png)
+
+Quaver silence example shown above.
+
 ## Configuration
 
 To load a custom silence image, simply put an image file called `silence.png` or `silence.jpg` inside the same folder as the mod DLL file. 
 
-The image file will be reloaded on every restart, and if it is not present will simply show the normal silence sprites (i.e., you can easily disable it by simply renaming or deleting the image).
+The image file is reloaded on every song restart, and if it is not present will simply show the normal silence sprites (i.e., you can easily disable it by simply renaming or deleting the image).
 
 There are also some options available in the BepInEx configuration file:
 
@@ -16,31 +20,10 @@ There are also options for each specific note type to change the scale of the im
 
 ## Mod Installation Instructions
 
-- Download the latest release of the mod from the releases page, and extract the DLL file from inside the zip.
-- Download BepInEx from [here](https://github.com/BepInEx/BepInEx/releases) and extract the BepInEx folder from the zip into the main UNBEATABLE game code folder (the one that contains UNBEATABLE.exe). You must extract ALL the files from that zip into the main UNBEATABLE folder (do NOT make a new folder!).
-- Run the game once and close it.
-- Put the mod DLL into the BepInEx\plugins folder.
+For installation instructions, refer to my mod installation guide here:
 
-The structure should then be:
+<https://gist.github.com/Stefyfresh/1140bf18c5f3895bd807258c16483887>
 
-<pre>
-UNBEATABLE
-├─── UNBEATABLE.exe
-├─── UNBEATABLE_Data
-├─── {some other folders and files}
-├─── .doorstop_version
-├─── changelog.txt
-├─── doorstop_config.ini
-├─── winhttp.dll
-└─── BepInEx
-    ├─── cache
-    ├─── config
-    ├─── core
-    ├─── patchers
-    └─── plugins
-        ├─── SomeMod.dll
-        └─── SomeOtherMod.dll
-</pre>
+---
 
-Once the mod is in the folder, restart the game and it should load.
-
+###### All code for Custom Silence was written by me, by hand.
