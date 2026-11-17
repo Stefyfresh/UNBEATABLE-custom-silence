@@ -15,7 +15,7 @@ namespace CustomSilence
     {
         public const string PLUGIN_GUID = "com.stefyfresh.CustomSilence";
         public const string PLUGIN_NAME = "Custom Silence";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "1.0.1";
         internal static new ManualLogSource Logger;
 
         public static readonly float imageDivisor = 110;

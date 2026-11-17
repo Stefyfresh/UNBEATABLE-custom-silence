@@ -2,7 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>CustomSilence</AssemblyName>
-    <Version>1.0.0</Version>
+    <RootNamespace>CustomSilence</RootNamespace>
+    <Version>1.0.1</Version>
+    <Description>https://github.com/Stefyfresh/UNBEATABLE-custom-silence</Description>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <RestoreAdditionalProjectSources>
@@ -10,7 +12,6 @@
       https://nuget.bepinex.dev/v3/index.json;
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
-    <RootNamespace>CustomSilence</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
